@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Passemu
+Icon=/usr/share/icons/vault.svg
+Exec=/usr/local/bin/passemu.sh
+Actions=password-1
+
+[Desktop Action password-1]
+Name=Password #1
+Exec=/usr/local/bin/passemu.sh 1
+

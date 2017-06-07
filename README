@@ -1,0 +1,2 @@
+cat /lib/modules/$(uname -r)/modules.builtin 
+http://stackoverflow.com/questions/11939255/writing-to-dev-uinput-on-ubuntu-12-04
