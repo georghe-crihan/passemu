@@ -13,6 +13,7 @@ install:
 	cp passemu /opt/passemu/
 	cp passemu.service /etc/systemd/system/
 	systemctl daemon-reload
+	systemctl enable passemu
 
 clean:
 	rm -f *.o
