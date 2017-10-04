@@ -1,0 +1,12 @@
+[Unit]
+Description=Passemu service daemon
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/opt/passemu/passemu /dev/null
+Type=forking
+PIDDFile=/var/run/powerd.pid
+Environment=HOME=/home/gkrikhan
+
